@@ -1,13 +1,10 @@
 [app]
-title = MyApp
-package.name = MyApp
-package.domain = com.example
-source.dir = .
-source.include_exts = py,kv,png,jpg,ttf,xml
-version = 0.1
-requirements = python3,kivy
-orientation = portrait
-fullscreen = 0
+# --- Android config ---
+android.api = 33
+android.minapi = 21
+android.sdk_path = /home/runner/android-sdk
+android.ndk_path = /home/runner/android-sdk/ndk/25.2.9519653
+
 
 [buildozer]
 log_level = 2
